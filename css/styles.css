@@ -55,3 +55,18 @@ body{
     left: 0;
     min-height: 300px;
 }
+
+.btn-success.active{
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, .5) ;
+    z-index: 5 !important;
+}
+.btn-danger.active{
+    box-shadow: 0 0 0 0.2rem rgba(189, 33, 48, .5) ;
+    z-index: 5 !important;
+}
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
